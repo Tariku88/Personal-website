@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tariku Sinshaw Tamir | Personal Website</title>
+    <meta
+      name="description"
+      content="Personal website of Tariku Sinshaw Tamir, Postdoctoral Researcher in control, machine learning, and intelligent manufacturing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow"></div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top">
+          <span class="brand-main">Tariku S. Tamir</span>
+          <span class="brand-sub">Postdoctoral Researcher</span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <!-- EDIT HERE: Navigation links -->
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#selected-publications">Selected Pubs</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Awards</a>
+          <a href="#references">References</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- EDIT HERE: Add or remove whole sections by adding/removing <section id="..."> blocks -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <!-- EDIT HERE: Hero intro text -->
+            <p class="eyebrow">Dhahran, Saudi Arabia</p>
+            <h1>Modelling, control, and AI for intelligent manufacturing systems.</h1>
+            <p>
+              I am a Postdoctoral Researcher at King Fahd University of Petroleum and Minerals
+              (KFUPM), working on machine learning, physics-informed methods, digital twins,
+              and additive manufacturing.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="mailto:tariku.tamir@kfupm.edu.sa">Email Me</a>
+              <a class="btn btn-ghost" href="Curriculum vitae, Tariku Sinshaw Tamir.pdf" download>
+                Download CV
+              </a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <figure class="profile-figure">
+              <!-- EDIT HERE: Profile image file -->
+              <img
+                class="profile-image"
+                src="profile-photo.jpg"
+                onerror="this.onerror=null;this.src='profile-placeholder.svg';"
+                alt="Profile portrait of Tariku Sinshaw Tamir"
+              />
+              <figcaption>Tariku Sinshaw Tamir</figcaption>
+            </figure>
+            <h2>At a Glance</h2>
+            <ul>
+              <li><strong>Current Role:</strong> Postdoctoral Researcher, KFUPM</li>
+              <li><strong>Research Areas:</strong> Control, ML, Additive Manufacturing</li>
+              <li><strong>Publications:</strong> 28+ journal and conference papers</li>
+              <li><strong>Nationality:</strong> Ethiopian</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="selected-publications" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Selected Publications</h2>
+            <a class="section-link" href="#publications">See full publication list</a>
+          </div>
+          <!-- EDIT HERE: Selected publication highlight cards -->
+          <div class="featured-grid">
+            <article class="card highlight-card">
+              <p class="highlight-year">2025</p>
+              <h3>A review of advances in 3D and 4D bioprinting</h3>
+              <p>
+                A broad synthesis of bioprinting progress and its role in mass individualization.
+              </p>
+              <p class="highlight-meta">Journal of Intelligent Manufacturing</p>
+            </article>
+            <article class="card highlight-card">
+              <p class="highlight-year">2025</p>
+              <h3>Data-driven and physics-assisted ML for warpage classification</h3>
+              <p>
+                Integrates data-driven and physics-aware learning for print quality and parameter
+                optimization in 3D-printed parts.
+              </p>
+              <p class="highlight-meta">IEEE Transactions on Computational Social Systems</p>
+            </article>
+            <article class="card highlight-card">
+              <p class="highlight-year">2024</p>
+              <h3>Physics-driven data collection in 3D printing</h3>
+              <p>
+                Explores data acquisition strategies for social manufacturing and intelligent
+                decision support.
+              </p>
+              <p class="highlight-meta">IEEE Transactions on Computational Social Systems</p>
+            </article>
+            <article class="card highlight-card">
+              <p class="highlight-year">2022</p>
+              <h3>Machine-learning-based monitoring and optimization in 3D printing</h3>
+              <p>
+                Demonstrates practical ML methods for process monitoring and production
+                optimization.
+              </p>
+              <p class="highlight-meta">International Journal of Computer Integrated Manufacturing</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            My research focuses on modelling, control, and optimization of complex systems,
+            robotics, machine learning, cyber-physical systems, digital twins, and social
+            manufacturing. I am particularly interested in combining data-driven and
+            physics-informed approaches to improve quality and efficiency in manufacturing.
+          </p>
+          <div class="pill-wrap">
+            <span class="pill">Machine Learning</span>
+            <span class="pill">Physics-Informed Learning</span>
+            <span class="pill">Control Engineering</span>
+            <span class="pill">Additive Manufacturing</span>
+            <span class="pill">Digital Twins</span>
+            <span class="pill">Robotics</span>
+            <span class="pill">Cyber-Physical Systems</span>
+            <span class="pill">Intelligent Manufacturing</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">Sep 2025 - Present</div>
+              <div class="timeline-content">
+                <h3>Postdoctoral Researcher</h3>
+                <p>King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia</p>
+                <p>
+                  Research on modelling, control and optimization, machine learning, large
+                  language models, physics-informed machine learning, additive manufacturing,
+                  and intelligent manufacturing.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-date">Aug 2023 - Jul 2025</div>
+              <div class="timeline-content">
+                <h3>Postdoctoral Researcher</h3>
+                <p>Guangdong University of Technology (GDUT), Guangzhou, China</p>
+                <p>
+                  Conducted research in modeling, control, and optimization of complex systems,
+                  machine learning, physics-informed machine learning, 3D printing,
+                  smart manufacturing, and social manufacturing.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-date">Jul 2015 - Aug 2019</div>
+              <div class="timeline-content">
+                <h3>Lecturer and Head of Department</h3>
+                <p>Debremarkos University, Debremarkos, Ethiopia</p>
+                <p>
+                  Delivered lectures, supervised academic activities, led curriculum planning,
+                  and contributed to instructional quality improvement.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-date">Sep 2011 - Sep 2012</div>
+              <div class="timeline-content">
+                <h3>Assistant Lecturer</h3>
+                <p>Debremarkos University, Debremarkos, Ethiopia</p>
+                <p>
+                  Taught undergraduate students, provided tutorials, and participated in
+                  curriculum review and demand-driven projects.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="cards three-up">
+            <article class="card">
+              <p class="card-year">2019 - 2023</p>
+              <h3>Ph.D. in Control Theory and Control Engineering</h3>
+              <p>University of Chinese Academy of Sciences (UCAS), Beijing, China</p>
+              <p>CGPA: 3.84/4.0 (Excellent); thesis rated excellent.</p>
+            </article>
+            <article class="card">
+              <p class="card-year">2012 - 2015</p>
+              <h3>M.Sc. in Electrical Engineering (Control Engineering)</h3>
+              <p>Addis Ababa University, Addis Ababa, Ethiopia</p>
+              <p>CGPA: 3.75/4.0 (Great Distinction).</p>
+            </article>
+            <article class="card">
+              <p class="card-year">2007 - 2011</p>
+              <h3>B.Sc. in Electrical Engineering</h3>
+              <p>Haramaya University, Harar, Ethiopia</p>
+              <p>CGPA: 3.62/4.0 (Distinction).</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="cards two-up">
+            <article class="card">
+              <h3>Technical</h3>
+              <ul>
+                <li>Programming: C++, C, Python, MATLAB</li>
+                <li>Simulation: MATLAB, DIGIMAT, ADAMS</li>
+                <li>Computer hardware and software maintenance</li>
+                <li>Calibration and maintenance of 3D printers</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Communication and Languages</h3>
+              <ul>
+                <li>Mother tongue: Amharic</li>
+                <li>English: Excellent in listening, reading, speaking, and writing</li>
+                <li>Strong teamwork and interdisciplinary communication</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Publications</h2>
+            <div class="filters" role="group" aria-label="Publication filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="journal">Journal</button>
+              <button class="filter-btn" data-filter="conference">Conference</button>
+            </div>
+          </div>
+
+          <!-- EDIT HERE: Full publications list -->
+          <!-- COPY THIS ITEM FORMAT:
+          <li class="pub-item" data-type="journal">
+            Paper title. <em>Journal or Conference</em>, Year.
+          </li>
+          -->
+          <ol class="pub-list">
+            <li class="pub-item" data-type="journal">
+              A review of advances in 3D and 4D bioprinting: Toward mass individualization paradigm.
+              <em>Journal of Intelligent Manufacturing</em>, 2025.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Data-driven and physics-assisted machine learning approach for warpage classification
+              and process parameter optimization in a 3D-printed BeltClip.
+              <em>IEEE Transactions on Computational Social Systems</em>, 2025.
+            </li>
+            <li class="pub-item" data-type="journal">
+              A Diffusion Model for Traffic Data Imputation.
+              <em>IEEE/CAA Journal of Automatica Sinica</em>, 2025.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Physics-driven data collection in 3D printing: Traversing the realm of social manufacturing.
+              <em>IEEE Transactions on Computational Social Systems</em>, 2024.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Probabilistic Data-Driven Modeling of a Melt Pool in Laser Powder Bed Fusion Additive Manufacturing.
+              <em>IEEE Transactions on Automation Science and Engineering</em>, 2024.
+            </li>
+            <li class="pub-item" data-type="journal">
+              3D printing in materials manufacturing industry: A realm of Industry 4.0.
+              <em>Heliyon</em>, 2023.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Multi-Agent Reinforcement Learning for Extended Flexible Job Shop Scheduling.
+              <em>Machines</em>, 2023.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Modeling and random search optimization for the polysilicon CVD reactor.
+              <em>Results in Control and Optimization</em>, 2023.
+            </li>
+            <li class="pub-item" data-type="journal">
+              An Efficient Product-Customization Framework Based on Multimodal Data under the Social Manufacturing Paradigm.
+              <em>Machines</em>, 2023.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Feature selection-based decision model for UAV path planning on rough terrains.
+              <em>Expert Systems with Applications</em>, 2023.
+            </li>
+            <li class="pub-item" data-type="journal">
+              A Novel Deep Stack-Based Ensemble Learning Approach for Fault Detection and Classification
+              in Photovoltaic Arrays.
+              <em>Remote Sensing</em>, 2023.
+            </li>
+            <li class="pub-item" data-type="journal">
+              A feedback-based print quality improving strategy for FDM 3D printing: an optimal design approach.
+              <em>International Journal of Advanced Manufacturing Technology</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Design and optimization of a control framework for robot assisted additive manufacturing
+              based on the Stewart platform.
+              <em>International Journal of Control, Automation and Systems</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Machine-learning-based monitoring and optimization of processing parameters in 3D printing.
+              <em>International Journal of Computer Integrated Manufacturing</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              A survey on social manufacturing: A paradigm shift for smart prosumers.
+              <em>IEEE Transactions on Computational Social Systems</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Process monitoring, diagnosis and control of additive manufacturing.
+              <em>IEEE Transactions on Automation Science and Engineering</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              A Case Study in Social Manufacturing: From Social Manufacturing to Social Value Chain.
+              <em>Machines</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              An AdaBoost Ensemble Model for Fault Detection and Classification in Photovoltaic Arrays.
+              <em>IEEE Journal of Radio Frequency Identification</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Adaptive local mean decomposition and multiscale-fuzzy entropy-based algorithms for
+              the detection of DC series arc faults in PV systems.
+              <em>Energies</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="journal">
+              A dragonfly optimization algorithm for extracting maximum power of grid-interfaced PV systems.
+              <em>Sustainability</em>, 2021.
+            </li>
+            <li class="pub-item" data-type="journal">
+              Modeling of neural networks for weather forecasting in Debre Markos, Ethiopia.
+              <em>Journal of the Chinese Institute of Engineers</em>, 2021.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Terms Development of Additive Manufacturing.
+              <em>2022 IEEE 2nd International Conference on Digital Twins and Parallel Intelligence (DTPI)</em>, 2022.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Modelling and experimental characteristics of photovoltaic modules in typical days at an actual photovoltaic power station.
+              <em>2021 IEEE 4th International Conference on Automation, Electronics and Electrical Engineering (AUTEEE)</em>, 2021.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Developing SCADA Systems to Monitor and Control Liquid and Detergent Factories.
+              <em>2020 IEEE 16th International Conference on Automation Science and Engineering (CASE)</em>, 2020.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Comparative Study of Four Speed Controllers of Brushless DC Motors for Industrial Applications.
+              <em>IFAC-PapersOnLine</em>, 2020.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Traffic Congestion Prediction using Decision Tree, Logistic Regression and Neural Networks.
+              <em>IFAC-PapersOnLine</em>, 2020.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Analysis of Harmonics Detection and their Filtration by using Active Band Pass Filter for Domestic Appliances.
+              <em>2020 IEEE 16th International Conference on Automation Science and Engineering (CASE)</em>, 2020.
+            </li>
+            <li class="pub-item" data-type="conference">
+              Passivity Based Control of Stewart Platform for Trajectory Tracking.
+              <em>2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA)</em>, 2019.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="awards" class="section alt">
+        <div class="container">
+          <h2>Awards and Funding</h2>
+          <div class="cards two-up">
+            <article class="card">
+              <h3>Awards</h3>
+              <ul>
+                <li>
+                  Outstanding secretary work during the CPHS relevance for Grand Societal Challenges
+                  online session of the 3rd IFAC workshop (Nov 18 - Dec 5, 2020).
+                </li>
+                <li>Excellent International Student Award, UCAS (2021).</li>
+                <li>Excellent International Student Award, UCAS (2022).</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Funding</h3>
+              <p>
+                Principal Investigator, National Natural Science Foundation of China (NSFC),
+                Grant No. W2533151.
+              </p>
+              <p>
+                Project: Artificial Intelligence-Powered Multimodal Data-Driven and Physics-Informed
+                Systems for Enhancing Quality-of-Service in Additive Manufacturing.
+              </p>
+              <p>Duration: Jan 2026 - Dec 2027.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="references" class="section">
+        <div class="container">
+          <h2>References</h2>
+          <!-- EDIT HERE: Reference cards -->
+          <div class="cards two-up">
+            <article class="card reference-card">
+              <h3>Gang Xiong</h3>
+              <p>Professor, State Key Laboratory of Multimodal Artificial Intelligence Systems</p>
+              <p>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
+              <p><a href="mailto:gang.xiong@ia.ac.cn">gang.xiong@ia.ac.cn</a></p>
+            </article>
+            <article class="card reference-card">
+              <h3>Zhen Shen</h3>
+              <p>Professor, State Key Laboratory of Multimodal Artificial Intelligence Systems</p>
+              <p>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
+              <p><a href="mailto:zhen.shen@ia.ac.cn">zhen.shen@ia.ac.cn</a></p>
+            </article>
+            <article class="card reference-card">
+              <h3>Jiewu Leng</h3>
+              <p>Professor, State Key Laboratory of Precision Electronic Manufacturing Technology Equipment</p>
+              <p>Guangdong University of Technology, Guangzhou, China</p>
+              <p><a href="mailto:jwleng@gdut.edu.cn">jwleng@gdut.edu.cn</a></p>
+            </article>
+            <article class="card reference-card">
+              <h3>Abebe Tesfahun Workineh</h3>
+              <p>Assistant Professor and Dean, Institute of Technology</p>
+              <p>Debremarkos University, Debremarkos, Ethiopia</p>
+              <p><a href="mailto:abebe.tesfahunau@gmail.com">abebe.tesfahunau@gmail.com</a></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact and Profiles</h2>
+          <!-- EDIT HERE: Contact details and profile links -->
+          <div class="cards two-up">
+            <article class="card">
+              <h3>Contact</h3>
+              <p><strong>Email:</strong> <a href="mailto:tareelectr@gmail.com">tareelectr@gmail.com</a></p>
+              <p><strong>Email:</strong> <a href="mailto:tariku.tamir@kfupm.edu.sa">tariku.tamir@kfupm.edu.sa</a></p>
+              <p><strong>Phone:</strong> +966 53 843 9741</p>
+              <p><strong>Phone:</strong> +251 91 586 5890</p>
+              <p><strong>Location:</strong> KFUPM, Dhahran, Saudi Arabia</p>
+            </article>
+            <article class="card">
+              <h3>Online Profiles</h3>
+              <p>
+                <strong>ORCID:</strong>
+                <a href="https://orcid.org/0000-0003-3700-928X" target="_blank" rel="noopener noreferrer">
+                  0000-0003-3700-928X
+                </a>
+              </p>
+              <p>
+                <strong>Google Scholar:</strong>
+                <a
+                  href="https://scholar.google.com/citations?user=r5RM374AAAAJ&hl=en&oi=ao"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Profile
+                </a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Tariku Sinshaw Tamir</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

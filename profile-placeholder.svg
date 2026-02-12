@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Stylized profile placeholder with initials TST.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#136872"/>
+      <stop offset="100%" stop-color="#cc5a2b"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#bg)"/>
+  <rect width="800" height="640" fill="url(#halo)"/>
+  <circle cx="400" cy="250" r="130" fill="#f8f4ea" fill-opacity="0.9"/>
+  <path d="M200 580c26-124 116-186 200-186s174 62 200 186H200z" fill="#f8f4ea" fill-opacity="0.9"/>
+  <text
+    x="400"
+    y="610"
+    text-anchor="middle"
+    font-family="Georgia, Times New Roman, serif"
+    font-size="64"
+    font-weight="700"
+    fill="#f8f4ea"
+    letter-spacing="6"
+  >
+    TST
+  </text>
+</svg>
